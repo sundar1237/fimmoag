@@ -6,7 +6,7 @@ include 'includes/cons.php';
 <head>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<?php
-	$map="#map {
+	 $map="#map {
 	height: 400px; /* The height is 400 pixels */
 	width: 100%; /* The width is the width of the web page */}";
 	echo getHead("Kontakt", "", $map);?>
